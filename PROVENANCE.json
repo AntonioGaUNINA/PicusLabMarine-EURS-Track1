@@ -1,0 +1,30 @@
+{
+  "submission_id": 19433,
+  "user_id": 2102,
+  "team": "PicusLabMarine",
+  "institution": "PicusLab, ENEA, UniNa",
+  "template_repository": "https://github.com/CeviKle/EURS-MaCVi2027-repro-template",
+  "template_commit": "6969174cfda345780ab4f5c915f697445541725e",
+  "exact_submitted_archive_sha256": "feba307fc6e2f6048faca6859bede72ad17dd6351cd83dc1813012a86abd1a2c",
+  "weights_archive": {
+    "filename": "weights-19433.tar.gz",
+    "sha256": "7db296f32ab1a412f2c9a9b2ea87160fd7a3864c520780d620e379e8724a977b",
+    "bytes": 7513166846,
+    "uncompressed_bytes": 8112776450,
+    "file_count": 238
+  },
+  "classifier_source_checkpoint_sha256": "f0f83d0956130a267b3959d323725e6d05b1c1c5ff63bf595a9ab04bdbc958ba",
+  "source_classification": "exact19433Full20positivehead, no later native6weights",
+  "publication": "Prepared only; Antonio Galli publishes GitHub; public weights hosting handled by user",
+  "runtime_does_not_read_scene_prefix": true,
+  "no_testing_training": true,
+  "team_owner": {
+    "name": "Antonio Galli",
+    "email": "antonio.galli@unina.it",
+    "user_id": 2055
+  },
+  "team_account_ids": [
+    2055,
+    2102
+  ]
+}

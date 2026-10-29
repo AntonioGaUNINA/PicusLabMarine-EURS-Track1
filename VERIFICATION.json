@@ -1,0 +1,83 @@
+{
+  "official_static_checker": {
+    "errors": 0,
+    "warnings": 0,
+    "checker_sha256": "49f8dce1e5604b4180cf22e7fe9de157f094c1897855891152046e0d88229644",
+    "scope": "syntax/layout and proposed HTTPS weights URL; URL has not been downloaded"
+  },
+  "fresh_fixtures": {
+    "status": "PASS_FIVE_FROZEN_OUTPUT_FIXTURES",
+    "comparisons": [
+      {
+        "stem": "test04_4_50",
+        "alias": "test04_4_50",
+        "JPEG_decoded_exact": true,
+        "RGB_changed_channels": 0,
+        "RGB_max_abs": 0,
+        "mask_exact": true,
+        "mask_changed_pixels": 0
+      },
+      {
+        "stem": "test11_5_50",
+        "alias": "test11_5_50",
+        "JPEG_decoded_exact": true,
+        "RGB_changed_channels": 0,
+        "RGB_max_abs": 0,
+        "mask_exact": true,
+        "mask_changed_pixels": 0
+      },
+      {
+        "stem": "test10_9_30",
+        "alias": "test10_9_30",
+        "JPEG_decoded_exact": true,
+        "RGB_changed_channels": 0,
+        "RGB_max_abs": 0,
+        "mask_exact": true,
+        "mask_changed_pixels": 0
+      },
+      {
+        "stem": "test20_10_100",
+        "alias": "test20_10_100",
+        "JPEG_decoded_exact": true,
+        "RGB_changed_channels": 0,
+        "RGB_max_abs": 0,
+        "mask_exact": true,
+        "mask_changed_pixels": 0
+      },
+      {
+        "stem": "test04_4_50",
+        "alias": "zzAliasOwnImage_4_50",
+        "JPEG_decoded_exact": true,
+        "RGB_changed_channels": 0,
+        "RGB_max_abs": 0,
+        "mask_exact": true,
+        "mask_changed_pixels": 0
+      }
+    ],
+    "no_GT": true,
+    "no_training": true,
+    "no_model_selection": true,
+    "own_image_guard": true,
+    "main_network_blocked": true,
+    "checker_prior_policy_overridden_exactly": true,
+    "primary_peak_allocated_GiB": 9.4806227684021,
+    "primary_peak_reserved_GiB": 11.078125,
+    "SAM_peak_allocated_GiB": 3.8112635612487793,
+    "SAM_peak_reserved_GiB": 4.171875,
+    "combined_process_tree_peak_RSS_bytes": 9449414656
+  },
+  "archive_integrity": {
+    "status": "PASS_FULL_ARCHIVE_READBACK_EVERY_FILE_HASH",
+    "files": 238,
+    "all_members_sha256_match": true,
+    "gzip_integrity": true,
+    "no_symlinks": true
+  },
+  "pending": [
+    "Public repository URL and pinned commit",
+    "Public weights URL and fresh download verification",
+    "Docker build in30minute budget",
+    "RTX3090 full1200image run by organizers"
+  ],
+  "limitations": "Local tests use existing historical H200 runtimes; no claim of container/RTX3090 certification."
+}

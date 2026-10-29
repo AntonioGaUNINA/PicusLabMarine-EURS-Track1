@@ -1,2 +1,1 @@
-Put your checkpoint here (small models), or describe where to download it in `weights_link.yaml` (large ones).
-`run.py` receives this folder as `model_dir`.
+The public archive is unpacked here before offline inference. Do not commit the downloaded archive or model files. The archive contains MODEL_INDEX.json, assets/, coefficients/, licenses/, and weights/.
